@@ -16,7 +16,7 @@ dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design<br>
 dotnet add package Microsoft.EntityFrameworkCore.Design<br>
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer<br>
 dotnet tool install -g dotnet-aspnet-codegenerator<br>
-dotnet aspnet-codegenerator controller -name TokenAuthController -async -api -m TodoItem -dc TokenAuthContext -outDir Controllers<br>
+dotnet aspnet-codegenerator controller -name TokenAuthController -async -api -m TokenAuth -dc TokenAuthContext -outDir Controllers<br>
 
 With following tool you can create migrate and update database<br>
 
