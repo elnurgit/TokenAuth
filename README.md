@@ -21,4 +21,14 @@ dotnet aspnet-codegenerator controller -name TokenAuthController -async -api -m 
 With following tool you can create migrate and update database<br>
 
 dotnet tool install --global dotnet-ef<br>
-Before you can use the tools on a specific project, you'll need to add the <strong>Microsoft.EntityFrameworkCore.Design</strong> package to it.
+Before you can use the tools on a specific project, you'll need to add the <strong>Microsoft.EntityFrameworkCore.Design</strong> package to it.<br>
+
+Also you need to add following packages<br>
+
+     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.6" />
