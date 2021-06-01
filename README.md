@@ -2,8 +2,8 @@
 Following codes creates project <br>
 
 
-#dotnet new webapi -o TodoApi
-#cd TodoApi
-#dotnet add package Microsoft.EntityFrameworkCore.InMemory
-#code -r ../TodoApi
+#dotnet new webapi -o TodoApi<br>
+#cd TodoApi<br>
+#dotnet add package Microsoft.EntityFrameworkCore.InMemory<br>
+#code -r ../TodoApi<br>
 
