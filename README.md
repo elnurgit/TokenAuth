@@ -17,3 +17,8 @@ dotnet add package Microsoft.EntityFrameworkCore.Design<br>
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer<br>
 dotnet tool install -g dotnet-aspnet-codegenerator<br>
 dotnet aspnet-codegenerator controller -name TokenAuthController -async -api -m TodoItem -dc TokenAuthContext -outDir Controllers<br>
+
+With following tool you can create migrate and update database<br>
+
+dotnet tool install --global dotnet-ef<br>
+Before you can use the tools on a specific project, you'll need to add the <strong>Microsoft.EntityFrameworkCore.Design</strong> package to it.
